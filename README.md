@@ -19,7 +19,8 @@ Follow these steps to set up the project locally on your machine.
 
 ```bash
 https://github.com/Maomao-2004/hotel-booking-palabay.git
-cd 
+
+cd hotel-booking-palabay-main
 ```
 
 **Installation** 

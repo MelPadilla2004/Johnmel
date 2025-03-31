@@ -15,25 +15,33 @@ const COLLECTIONS = {
 };
 
 const propertyTypes = [
-  "House",
-  "Townhomes",
-  "Condos",
-  "Duplexes",
-  "Studios",
-  "Villa",
-  "Apartments",
-  "Others",
+ 'Fast Food',
+
+'Casual',
+
+'Fine Dining',
+
+'Cafe',
+
+'Buffet',
+
 ];
 
 const facilities = [
-  "Laundry",
-  "Car Parking",
-  "Sports Center",
-  "Cutlery",
-  "Gym",
-  "Swimming pool",
-  "Wifi",
-  "Pet Center",
+ 'Appetizers',
+
+'Main Courses',
+
+'Side Dishes',
+
+'Desserts',
+
+'Beverages',
+
+'Specials',
+
+"Kids' Menu",
+
 ];
 
 function getRandomSubset<T>(

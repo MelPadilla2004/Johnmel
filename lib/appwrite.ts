@@ -12,7 +12,7 @@ import * as Linking from "expo-linking";
 import { openAuthSessionAsync } from "expo-web-browser";
 
 export const config = {
-  platform: "com.jsm.restate",
+  platform: "com.altair.vega",
   endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
   databaseId: process.env.EXPO_PUBLIC_APPWRITE_DATABASE_ID,
@@ -127,14 +127,16 @@ export async function getProperties({
     if (filter && filter !== "All")
       buildQuery.push(Query.equal("type", filter));
 
-    if (query)
-      buildQuery.push(
-        Query.or([
-          Query.search("name", query),
-          Query.search("address", query),
-          Query.search("type", query),
-        ])
-      );
+    
+if (query)
+  buildQuery.push(
+    Query.or([
+      Query.contains("name", query),
+      Query.contains("address", query),
+      Query.contains("type", query),
+    ])
+  );
+
 
     if (limit) buildQuery.push(Query.limit(limit));
 

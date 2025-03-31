@@ -18,8 +18,8 @@ Follow these steps to set up the project locally on your machine.
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/react_native-restate.git
-cd react_native-restate
+https://github.com/Maomao-2004/hotel-booking-palabay.git
+cd 
 ```
 
 **Installation** 

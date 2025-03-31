@@ -15,25 +15,50 @@ const COLLECTIONS = {
 };
 
 const propertyTypes = [
-  "House",
-  "Townhomes",
-  "Condos",
-  "Duplexes",
-  "Studios",
-  "Villa",
-  "Apartments",
-  "Others",
+ 'Boutique hotel',
+
+'Chain hotel',
+
+'Resort',
+
+'Business hotel',
+
+'Budget hotel',
+
+'Luxury hotel',
+
+'Airport hotel'
+
 ];
 
 const facilities = [
-  "Laundry",
-  "Car Parking",
-  "Sports Center",
-  "Cutlery",
-  "Gym",
-  "Swimming pool",
-  "Wifi",
-  "Pet Center",
+ 'Gym',
+
+'Wifi',
+
+'Single room',
+
+'Sport Center',
+
+'Swimming Pool',
+
+'Buffet & Banquet Hall',
+
+'Double room',
+
+'Suite',
+
+'Deluxe room',
+
+'Family room',
+
+'Park',
+
+'Elevator',
+
+'Arcade'
+
+
 ];
 
 function getRandomSubset<T>(

@@ -8,7 +8,7 @@ interface GlobalContextType {
   isLogged: boolean;
   user: User | null;
   loading: boolean;
-  refetch: () => void;
+  refetch: (newParams?: Record<string, string | number>) => Promise<void>;
 }
 
 interface User {
@@ -28,10 +28,15 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
   const {
     data: user,
     loading,
-    refetch,
+    refetch: originalRefetch,
   } = useAppwrite({
     fn: getCurrentUser,
   });
+
+  // Wrap refetch to allow calling with or without parameters
+  const refetch = async (newParams?: Record<string, string | number>) => {
+    await originalRefetch(newParams || {});
+  };
 
   const isLogged = !!user;
 

@@ -21,19 +21,33 @@ import bath from "@/assets/icons/bath.png";
 import area from "@/assets/icons/area.png";
 import chat from "@/assets/icons/chat.png";
 import phone from "@/assets/icons/phone.png";
-import carPark from "@/assets/icons/car-park.png";
+import park from "@/assets/icons/park.png";
+import bar from "@/assets/icons/bar.png";
+import elevator from "@/assets/icons/elevator.jpg";
+import arcade from "@/assets/icons/arcade.jpg";
+import sauna from "@/assets/icons/sauna.jpg";
 import cutlery from "@/assets/icons/cutlery.png";
-import dog from "@/assets/icons/dog.png";
+import spa from "@/assets/icons/spa.png";
+import fridge from "@/assets/icons/fridge.png";
+import tv from "@/assets/icons/tv.png";
 import dumbell from "@/assets/icons/dumbell.png";
 import laundry from "@/assets/icons/laundry.png";
 import run from "@/assets/icons/run.png";
-import swim from "@/assets/icons/swim.png";
+import pool from "@/assets/icons/pool.png";
 import wifi from "@/assets/icons/wifi.png";
+import aircon from "@/assets/icons/aircon.png";
 import location from "@/assets/icons/location.png";
 import edit from "@/assets/icons/edit.png";
 
 export default {
   google,
+  spa,
+  sauna,
+  tv,
+  fridge,
+  bar,
+  elevator,
+  arcade,
   home,
   search,
   person,
@@ -56,14 +70,14 @@ export default {
   area,
   chat,
   phone,
-  carPark,
+  park,
   cutlery,
-  dog,
   dumbell,
   laundry,
   run,
-  swim,
+  pool,
   wifi,
+  aircon,
   location,
   edit,
 };

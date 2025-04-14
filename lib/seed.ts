@@ -36,27 +36,31 @@ const facilities = [
 
 'Wifi',
 
-'Single room',
+'Pool',
 
-'Sport Center',
+'Laudry',
 
-'Swimming Pool',
+'Air conditioning',
 
-'Buffet & Banquet Hall',
+'TV',
 
-'Double room',
-
-'Suite',
-
-'Deluxe room',
-
-'Family room',
+'Fridge',
 
 'Park',
 
+'Cutlery',
+
+'Bar',
+
 'Elevator',
 
-'Arcade'
+'Arcade',
+
+'Sauna',
+
+'Spa'
+
+
 
 
 ];
